@@ -1,31 +1,32 @@
-# Jenkins-CI-CD-Pipeline-on-AWS
-Designed and deployed a CI/CD pipeline using Jenkins, Docker, and GitHub on AWS EC2. Automated the build and deployment process of a Node.js application using Docker containers. Configured GitHub webhooks for continuous integration and Jenkins pipelines for automated delivery.
-Set up a Jenkins CI/CD pipeline on an AWS EC2 instance running Ubuntu.
+Jenkins-CI-CD-Pipeline-on-AWS
 
-Integrated GitHub repository using webhooks to automate builds on code push.
+📌 Project Summary
+- Set up a Jenkins CI/CD pipeline on AWS EC2.
+- Integrated with GitHub for automatic builds.
+- Dockerized a Node.js app and deployed via Jenkins.
 
-Created a Dockerfile to containerize a simple Node.js application.
+🛠 Tools Used
+- AWS EC2 (Ubuntu)
+- Jenkins
+- Git & GitHub
+- Docker
+- Node.js
+- Shell scripting
 
-Configured Jenkins Freestyle job to:
+⚙️ Setup Steps
+1. Launch EC2 and install Java, Jenkins, and Docker.
+2. Configure Jenkins and install necessary plugins.
+3. Connect GitHub repo using Webhook.
+4. Create Dockerfile for Node.js app.
+5. Create Jenkins job to:
+   - Build Docker image
+   - Run container
+6. Access app on `http://<EC2-IP>:8000`.
 
-Pull latest code from GitHub
-
-Build Docker image
-
-Run Docker container on EC2
-
-Installed and configured Docker and Jenkins on EC2 using shell commands.
-
-Ensured the app is accessible via EC2's public IP on port 8000.
-
-Used Git, Docker, Jenkins, and AWS EC2 as core tools in the CI/CD pipeline.
-
-Improved understanding of:
-
-Cloud deployment (AWS)
-
-Containerization (Docker)
-
-Continuous Integration/Delivery (Jenkins)
-
-Git-based automation (webhooks)
+📚 Key Concepts Learned
+- Jenkins job configuration
+- GitHub Webhook integration
+- Docker container build and run
+- Basic AWS EC2 operations
+ 📎 Author
+**Akash Patil** 
