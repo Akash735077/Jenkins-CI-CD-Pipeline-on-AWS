@@ -21,7 +21,7 @@ Jenkins-CI-CD-Pipeline-on-AWS
 5. Create Jenkins job to:
    - Build Docker image
    - Run container
-6. Access app on `http://<EC2-IP>:8000`.
+6. Access app on `http://<EC2-IP>:8080`.
 
 📚 Key Concepts Learned
 - Jenkins job configuration
